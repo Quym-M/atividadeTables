@@ -11,6 +11,9 @@
         font-style: normal;
         font-size: 150%;
       }
+      table {
+        width: 50%;
+      }
 
       td {
         padding: 5px;
@@ -19,56 +22,56 @@
   </head>
 
   <body>
-    <table style="width: 75%">
+    <table>
       <tr>
-        <td><p>1</p></td>
-        <td><p>2</p></td>
-        <td><p>3</p></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
       </tr>
       <tr>
-        <td><p align="center">4</p></td>
-        <td><p align="center">5</p></td>
-        <td><p align="center">6</p></td>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">6</td>
       </tr>
       <tr>
-        <td><p align="right">7</p></td>
-        <td><p align="right">8</p></td>
-        <td><p align="right">9</p></td>
-      </tr>
-    </table>
-    <br>
-    <hr />
-    <br>
-    <table style="width: 75%">
-      <tr>
-        <td><p>1</p></td>
-        <td><p>2</p></td>
-        <td><p>3</p></td>
-      </tr>
-      <tr>
-        <td colspan="3"><p align="center">4</p></td>
-      </tr>
-      <tr>
-        <td><p>7</p></td>
-        <td><p>8</p></td>
-        <td><p>9</p></td>
+        <td style="text-align: right">7</td>
+        <td style="text-align: right">8</td>
+        <td style="text-align: right">9</td>
       </tr>
     </table>
     <br>
     <hr />
     <br>
-    <table style="width: 75%">
+    <table>
       <tr>
-        <td><p>1</p></td>
-        <td><p>2</p></td>
-        <td rowspan="3"><p align="center">3</p></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
       </tr>
       <tr>
-        <td colspan="2"><p align="center">4</p></td>
+        <td colspan="3" style="text-align: center">4</td>
       </tr>
       <tr>
-        <td><p>5</p></td>
-        <td><p>6</p></td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+    </table>
+    <br>
+    <hr />
+    <br>
+    <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td rowspan="3" style="text-align: center">3</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center">4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>6</td>
       </tr>
     </table>
   </body>
